@@ -1,7 +1,7 @@
 # Add  code here!
 
 def prime?(..)
- n = 2
+ (..).to_a
   while n < num
     return false if num % n == 0
     n += 1
