@@ -2,6 +2,9 @@
 
 def prime?()
   n = (..).to_a
+  
+  
+  
   while n < num
     return false if num % n == 0
     n += 1
