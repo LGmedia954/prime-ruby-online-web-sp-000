@@ -1,5 +1,5 @@
 # Add  code here!
 
-def prime?(i)
+def prime?(num)
   n = 2
   while n <
