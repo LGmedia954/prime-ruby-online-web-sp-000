@@ -1,9 +1,11 @@
 # Add  code here!
 
 def prime?(num)
-  num = num.to_i
-  num.each do |n|
-    return false if num % n == 0
+  if num < 0 || num == 0 || num == 1
+  return false
+  else
+  (2..num-1).to_a.all? do |n|
+  num % n != 0
   end
-  true
+  end
 end
