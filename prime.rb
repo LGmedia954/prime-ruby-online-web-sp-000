@@ -1,8 +1,10 @@
 # Add  code here!
 
 def prime?()
- (int..(int - 1)).each do |n|
-    return false if int % n == 0
+ n = 2
+  while n < num
+    return false if num % n == 0
+    n += 1
   end
   true
 end
